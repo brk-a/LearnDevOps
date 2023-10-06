@@ -31,7 +31,7 @@
 
 #### how to calculate code coverage
 
->   $ code coverage = $ $$ total no. of non-syntax lines with tests \over total number of non-syntax lines $$
+>   $ code coverage = {total no. of non-syntax lines with tests \over total number of non-syntax lines} $
 
 * logic and branch lines are the non-syntactic ones, clearly
 * consider the following test (as usual, it does nothing useful)
