@@ -52,4 +52,13 @@
         * the `return`
     * said test covers five out of six lines or 83% of the non-syntax lines
     * code coverage, therefore, is 83%
-* 
+
+#### when to care about code coverage
+* you have inherited a codebase
+* your product has users
+* said users can/will leave if/when affected by bugs
+* you are working with devs that are not immdiately trustworthy eg. independent contractors & interns
+* you are working on a large codebase that has many testable components
+
+#### code coverage best practices
+* code coverage (the metric) must not decrease; you can refactor/optimise etc all you want but code coverage must be at least what it was before those ops

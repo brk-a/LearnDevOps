@@ -53,3 +53,14 @@
         * the `if` block
     * said test passes two out of three groups or 66% of the non-syntax groups
     * branch coverage, therefore, is 66%
+
+#### when to care about branch coverage
+* you have inherited a codebase
+* your product has users
+* said users can/will leave if/when affected by bugs
+
+#### branch coverage *faux pas*
+* too many tests for uncertain features
+    * users care about the stability  of the system, not the number of tests the system passes
+* sunk cost fallacy
+    * "users do not like feature X. i created Y tests for said feature; it passes. why TF would I drop the feature?"
