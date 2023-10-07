@@ -54,7 +54,7 @@
     * code coverage, therefore, is 83%
 
 #### when to care about code coverage
-* you have inherited a codebase
+* you have inherited a codebase that uses TDD
 * your product has users
 * said users can/will leave if/when affected by bugs
 * you are working with devs that are not immdiately trustworthy eg. independent contractors & interns
@@ -62,3 +62,8 @@
 
 #### code coverage best practices
 * code coverage (the metric) must not decrease; you can refactor/optimise etc all you want but code coverage must be at least what it was before those ops
+* there must be owners (code owners) for test files. a code owner has something like this:
+    ```text
+        *.spec.js @engineering-manager-username
+   ```
+*

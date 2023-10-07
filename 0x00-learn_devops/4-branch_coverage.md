@@ -55,7 +55,7 @@
     * branch coverage, therefore, is 66%
 
 #### when to care about branch coverage
-* you have inherited a codebase
+* you have inherited a codebase that uses TDD
 * your product has users
 * said users can/will leave if/when affected by bugs
 
