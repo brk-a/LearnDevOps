@@ -26,14 +26,9 @@
     * the function declaration level (is the main one)
         * will always execute
     * the `for` block
-        * only executes when 
-            $$ x \lt n $$
+        * only executes when $$x \lt n$$
     * the `if` block
-        * only executes when 
-
-            ```math
-                i \mod 50 = 49
-            ```
+        * only executes when $${i \mod 50} = 49$$
 * branch coverage is 100% if all branches evaluate to `true`, that is, are executed; adjust proportions baed on the *truthy*-ness of a branch
 
 #### how to calculate branch coverage
