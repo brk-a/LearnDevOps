@@ -28,7 +28,7 @@
     * the `for` block
         * only executes when $ x \lt n $
     * the `if` block
-        * only executes when $$ {i \mod 50} \eq 49 $$
+        * only executes when $ {i \mod 50} \eq 49 $
 * branch coverage is 100% if all branches evaluate to `true`, that is, are executed; adjust proportions baed on the *truthy*-ness of a branch
 
 #### how to calculate branch coverage
