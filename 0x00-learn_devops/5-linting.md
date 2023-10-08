@@ -87,25 +87,25 @@
 
 |language|ESLint|TyeScript ESLint|pylint|flake8|cpplint (GOOG)|gofmt|CheckStyle|FindBugs|RuboCop|Pronto|SonarQube|DeepSource|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|JS|:heavy_check_mark:||||||||||- [x]|- [x]|
-|TS||- [x]||||||||||- [x]||
-|Py|||- [x]|- [x]|||||||- [x]|- [x]|
-|C++|||||- [x]||||||||
-|Go||||||- [x]|||||- [x]|- [x]|
-|Java|||||||- [x]|- [x]|||- [x]|- [x]|
-|Ruby|||||||||- [x]|- [x]|- [x]|- [x]|
-|C#|||||||||||- [x]||
-|Kotlin|||||||||||- [x]||
-|Scala|||||||||||- [x]||
-|Flex|||||||||||- [x]||
-|PHP|||||||||||- [x]||
-|HTML|||||||||||- [x]||
-|CSS|||||||||||- [x]||
-|XML|||||||||||- [x]||
-|VB.NET|||||||||||- [x]||
-|Docker||||||||||||- [x]|
-|Terraform||||||||||||- [x]|
-|SQL||||||||||||- [x]|
-|Shell (not open-source)||||||||||||- [x]|
+|JS|:heavy_check_mark:||||||||||:heavy_check_mark:|:heavy_check_mark:|
+|TS||:heavy_check_mark:||||||||||:heavy_check_mark:||
+|Py|||:heavy_check_mark:|:heavy_check_mark:|||||||:heavy_check_mark:|:heavy_check_mark:|
+|C++|||||:heavy_check_mark:||||||||
+|Go||||||:heavy_check_mark:|||||:heavy_check_mark:|:heavy_check_mark:|
+|Java|||||||:heavy_check_mark:|:heavy_check_mark:|||:heavy_check_mark:|:heavy_check_mark:|
+|Ruby|||||||||:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|C#|||||||||||:heavy_check_mark:||
+|Kotlin|||||||||||:heavy_check_mark:||
+|Scala|||||||||||:heavy_check_mark:||
+|Flex|||||||||||:heavy_check_mark:||
+|PHP|||||||||||:heavy_check_mark:||
+|HTML|||||||||||:heavy_check_mark:||
+|CSS|||||||||||:heavy_check_mark:||
+|XML|||||||||||:heavy_check_mark:||
+|VB.NET|||||||||||:heavy_check_mark:||
+|Docker||||||||||||:heavy_check_mark:|
+|Terraform||||||||||||:heavy_check_mark:|
+|SQL||||||||||||:heavy_check_mark:|
+|Shell (not open-source)||||||||||||:heavy_check_mark:|
 
 [def]: https://en.wikipedia.org/wiki/Naming_convention_(programming)
