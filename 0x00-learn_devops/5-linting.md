@@ -87,7 +87,7 @@
 
 |language|ESLint|TyeScript ESLint|pylint|flake8|cpplint (GOOG)|gofmt|CheckStyle|FindBugs|RuboCop|Pronto|SonarQube|DeepSource|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|JS|[x]||||||||||- [x]|- [x]|
+|JS|:heavy_check_mark:||||||||||- [x]|- [x]|
 |TS||- [x]||||||||||- [x]||
 |Py|||- [x]|- [x]|||||||- [x]|- [x]|
 |C++|||||- [x]||||||||
