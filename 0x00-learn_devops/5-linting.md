@@ -20,7 +20,7 @@
 * a number of things are *wrong* with the code:
     * two variables have been given tha same name `x`: the string `5` and the int initialised at `0`
     * infinite loop: `x` is not adjusted inside the `while` loop; it will never get to 101, therefore, will loop forever
-    * there is code on the same line as the opening brace, `{` of the function `f`
+    * there is code on the same line as the opening brace, `{`, of the function `f`
 
         ```javascript
             //snip
