@@ -81,7 +81,7 @@
                 fi
             ```
    
-*
+* not having a linter, static analysis tools etc when team size > 1 dev
 
 #### linters for various languages
 
