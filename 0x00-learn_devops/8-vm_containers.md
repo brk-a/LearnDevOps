@@ -81,7 +81,7 @@
         * on linux to see how many processes are running natively on linux (notice that the docker container is listed and counted here, however, the processes running inside it are not)
         * in the docker container to see how many processes are running inside said container (notice the processes running natively on linux are neither listed nor counted here)
     * programmme in a container, container 1, asks,"what are the contents of */usr/lib/python*?"
-        * linux does not reply using the actual contents of said path; instead, it uses the contents of */var/lib/docker/overlatyfs/1/usr/lib/python*
+        * linux does not reply using the actual contents of said path; instead, it uses the contents of */var/lib/docker/overlayfs/1/usr/lib/python*
         * this wee deception allows programmes to run in parallel (synchronously) because linux responds with different files to each container 
 * each container has a custom view of the global file system  based on its configs
 
@@ -111,7 +111,7 @@
 |storage requirements|50-100% more storage than containers|converse; containers do not need all the files an OS requires|
 |memory usage|use *c.* 200Mb of mem for each *"inner OS"*|little to no mem overhead|
 
-#### when are Vms a better choice?
+#### when are VMs a better choice?
 * when you:
     * run untrusted (eg. user-supplied) code
         * unpopular opinion: it is difficult to be confident that they cannot *escape* a container (containers, however, have improved over time)
