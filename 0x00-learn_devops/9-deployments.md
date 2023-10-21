@@ -1,6 +1,6 @@
 # rolling deployments
 
-* *rolling deployments* (think continuous deployment) ia astrategy to deploy a new version of an app w/o causing down time
+* *rolling deployments* (think continuous deployment) ia a strategy to deploy a new version of an app w/o causing down time
 
 #### how they work
 * create a single instance of the new version
